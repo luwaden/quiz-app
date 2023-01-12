@@ -32,14 +32,15 @@ function  checkAnswer() {
         document.getElementById("result-4").innerHTML = "4.  correct!"
     } else {
         document.getElementById("result-4").innerHTML = "4.Incorrect, correct answer is Nigeria!"
+    }    
 
     var answer = document.querySelector('input[name="answer-5"]:checked').value
 
     if (answer === "Nollywood, Nigeria") { 
-        document.getElementById("result-5").innerHTML = "1.  correct!"
+        document.getElementById("result-5").innerHTML = "5.  correct!"
     } else {
-        document.getElementById("result-5").innerHTML = "1. Incorrect, correct answer is Nollywood, Nigeria!"
+        document.getElementById("result-5").innerHTML = "5. Incorrect, correct answer is Nollywood, Nigeria!"
     }
-    }
+    
 
 }
